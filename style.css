@@ -9,7 +9,8 @@
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background-color: #f3f4f6;
+  background-color: #dddddd;
+  /* background-color: #4b4b4b; */
   color: #111827;
   line-height: 1.6;
 }
@@ -41,15 +42,17 @@ body {
 }
 
 .card {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background-color: #111827;
   border-radius: 0.75rem;
   padding: 1rem 1.25rem;
   margin-bottom: 1rem;
-  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+  box-shadow: -8px 8px 4px rgba(41, 31, 101, 0.199);
 }
 
 .card h2 {
   margin-bottom: 0.75rem;
+  color: rgb(255, 255, 255);
 }
 
 /* Form */
@@ -67,6 +70,7 @@ body {
 }
 
 .todo-form input[type="text"]:focus {
+  background-color: #d0cfcf;
   outline: none;
   border-color: #2563eb;
   box-shadow: 0 0 0 1px #2563eb33;
@@ -90,6 +94,15 @@ body {
   margin-top: 0.5rem;
   font-size: 0.85rem;
   color: #b91c1c;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 4px 8px;
+  border-radius: 8px;
+  display: none;
+}
+
+.error-message.show {
+  display: inline-block; 
 }
 
 /* Daftar tugas */
@@ -104,6 +117,9 @@ body {
   gap: 0.75rem;
   padding: 0.55rem 0;
   border-bottom: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: rgb(255, 255, 255);
 }
 
 .todo-item:last-child {
