@@ -1,0 +1,3 @@
+Maaf pak, pada bagian button untuk class btn-yes dan button-no terdapat outline yang sudah saya usahakan untuk dihilangkan dengan outline: none. Namun tetap saja outlinenya masih ada, sehingga tidak dapat saya apa-apakan walaupun mengganggu pengelihatan saya.
+
+Untuk fitur yang dinginkan sudah saya terapkan dengan beberapa penambahan berdasarkan ide yang muncul dipikiran saya dan dapat saya realisasikan. Terima kasih
